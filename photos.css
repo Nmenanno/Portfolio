@@ -19,3 +19,9 @@
 .sae-expanded-gallery>figure>a:not(.runway-photo-crop){height:260px;display:flex;align-items:center;background:#20272d}.sae-expanded-gallery>figure>a:not(.runway-photo-crop) img{width:100%;height:100%;object-fit:contain}.sae-feature .runway-photo-crop{display:block;position:relative;overflow:hidden;aspect-ratio:1567/877;border-radius:3px}.sae-feature .runway-photo-crop img{position:absolute;width:109.06%;max-width:none;height:auto;left:-3%;top:-5.36%;border-radius:0}.finger-mk1-gallery img{object-fit:contain;background:#e9ebef}@media(max-width:580px){.sae-expanded-gallery>figure>a:not(.runway-photo-crop){height:auto}.sae-expanded-gallery>figure>a:not(.runway-photo-crop) img{height:auto;max-height:400px}}
 
 .rc-project .rc-chassis-only{grid-template-columns:1fr;max-width:360px;margin:24px auto}.rc-project .rc-chassis-only img,.rc-project .rc-chassis-only figure:first-child img{height:auto;max-height:480px}.rc-project .rc-extra-photos{grid-template-columns:repeat(2,minmax(0,1fr))}.about-two-rows{grid-template-columns:1fr 1fr;gap:32px 60px;align-items:start}.about-two-rows .about-values{margin-top:0;padding-top:0;border-top:0}.about-two-rows .about-subheading:first-child{margin-top:0}.about-two-rows h2{margin-bottom:0}.about-two-rows .about-intro{margin-bottom:0}@media(max-width:800px){.about-two-rows{grid-template-columns:1fr;gap:28px}}@media(max-width:580px){.rc-project .rc-extra-photos{grid-template-columns:1fr}}
+
+/* Readable photo captions throughout the portfolio. */
+body figure figcaption{font-size:18px!important;line-height:1.6!important;letter-spacing:0!important}
+.rc-project .rc-chassis-only{max-width:600px}
+.rc-project .rc-chassis-only figure>a{position:relative;aspect-ratio:4/3;overflow:hidden;display:block}
+.rc-project .rc-chassis-only img,.rc-project .rc-chassis-only figure:first-child img{position:absolute;left:50%;top:50%;width:75%;height:133.333%;max-height:none;object-fit:contain;transform:translate(-50%,-50%) rotate(90deg)}
